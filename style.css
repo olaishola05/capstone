@@ -33,3 +33,21 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+:root {
+  --primary-color: #ee523d;
+  --secondary-color: #d3d3d3;
+  --font-color: #272a31;
+  --font-family: "Lato", sans-serif;
+  --cocogoose: "COCOGOOSE", Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--cocogoose);
+}
