@@ -2,6 +2,24 @@ body {
   width: 100%;
 }
 
-p {
-  color: dodgerblue;
+header {
+  background: #f1f1f3 url(../images/winners-bg.jpegs) no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  /* filter: blur(5px); */
+  height: 150px;
+}
+
+.top-nav-container {
+  display: none;
+}
+
+.bottom-nav-container {
+  display: none;
+}
+
+.hamburger {
+  padding: 30px;
+  font-size: 50px;
+  color: var(--font-color);
 }
