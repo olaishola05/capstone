@@ -4,8 +4,8 @@ body {
 
 .header-wrapper {
   background: linear-gradient(
-      rgba(249, 249, 249, 0.7),
-      rgba(249, 249, 249, 0.7)
+      rgba(249, 249, 249, 0.8),
+      rgba(249, 249, 249, 0.8)
     ),
     url(../images/winners-bg.jpeg);
   background-size: cover;
@@ -29,6 +29,93 @@ body {
   font-size: 50px;
   color: var(--font-color);
   z-index: 0;
+}
+
+.headline {
+  width: 100%;
+  padding: 10px;
+}
+
+.welcome {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.headline h1 {
+  color: var(--primary-color);
+  font-weight: 900;
+  font-size: 20px;
+  margin-top: 7px;
+  margin-bottom: 20px;
+}
+
+.headline p {
+  color: var(--font-color);
+  background-color: var(--secondary-color);
+  padding: 15px;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+
+.scripture {
+  color: var(--primary-color);
+  font-family: var(--font-family);
+  font-weight: bold;
+}
+
+.headline h3 {
+  color: var(--font-color);
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+
+.location {
+  color: var(--font-color);
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.program-container {
+  background-color: #272a31;
+  padding: 8px;
+}
+
+.program-container h2 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.program-container hr {
+  width: 50px;
+  background-color: var(--primary-color);
+  margin-bottom: 40px;
+}
+
+.program-item {
+  background-color: #3c3f46;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px 5px 10px 5px;
+}
+
+.program-item h4 {
+  margin-left: 10px;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.program-item p {
+  width: 85%;
+  color: white;
 }
 
 /* About section */
