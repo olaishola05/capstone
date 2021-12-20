@@ -90,8 +90,8 @@ body {
   justify-content: center;
 }
 
-.program-container hr {
-  width: 50px;
+.break {
+  width: 30px;
   background-color: var(--primary-color);
   margin-bottom: 40px;
 }
@@ -116,6 +116,108 @@ body {
 .program-item p {
   width: 85%;
   color: white;
+}
+
+.program-section a {
+  width: 90%;
+  background-color: var(--primary-color);
+  padding: 25px 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 17px;
+}
+.speakers {
+  padding: 10px;
+}
+
+.speakers h2 {
+  font-family: var(--font-family);
+  text-align: center;
+  margin-top: 30px;
+}
+
+.checkers {
+  position: absolute;
+  width: 60px;
+}
+
+.speaker-image {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 2px;
+  top: 10px;
+  left: 10px;
+}
+
+.speaker {
+  display: flex;
+  margin-bottom: 30px;
+}
+.speaker hr {
+  width: 30px;
+  background-color: var(--primary-color);
+  margin-bottom: 10px;
+  margin-left: 25px;
+}
+
+.name-professional h4 {
+  color: var(--font-color);
+  font-weight: 600;
+  margin-left: 25px;
+}
+
+.name-professional .description {
+  color: var(--primary-color);
+  font-style: italic;
+  margin-left: 25px;
+  width: 225px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.name-professional p {
+  color: var(--font-color);
+  margin-left: 25px;
+  width: 225px;
+  font-size: 14px;
+}
+
+.more {
+  margin-top: 40px;
+  width: 90%;
+  padding: 10px 30px;
+  border: 1px solid var(--secondary-color);
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+.more span {
+  margin-right: 10px;
+  color: var(--font-color);
+  font-size: 13px;
+}
+
+.more i {
+  color: var(--primary-color);
+}
+
+.partners {
+  display: none;
+}
+
+footer {
+  display: nones;
 }
 
 /* About section */

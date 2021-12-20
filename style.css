@@ -51,3 +51,11 @@ h2,
 h3 {
   font-family: var(--cocogoose);
 }
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
