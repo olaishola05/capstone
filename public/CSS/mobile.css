@@ -16,7 +16,44 @@ body {
 }
 
 .bottom-nav-container {
+  visibility: hidden;
+}
+
+.logo {
   display: none;
+}
+
+.bottom-nav {
+  background-color: var(--primary-color);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding-top: 50px;
+  backdrop-filter: blur(7px);
+  mix-blend-mode: multiply;
+  font-weight: 600;
+}
+
+.bottom-nav li {
+  margin-bottom: 20px;
+}
+
+.bottom-nav li a {
+  color: white;
+  font-size: 24px;
+}
+
+.close-btn {
+  color: white;
+  align-self: end;
+  margin-right: 70px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .program-item img {
