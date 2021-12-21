@@ -1,6 +1,5 @@
 const menu = document.querySelector(".hamburger");
 const showMenu = document.querySelector(".bottom-nav");
-const logo = document.querySelector(".logo");
 const closeBtn = document.querySelector(".close-btn");
 
 const toggleOpen = false;
