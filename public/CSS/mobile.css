@@ -116,6 +116,7 @@ body {
 .program-item p {
   width: 85%;
   color: white;
+  font-size: 13px;
 }
 
 .program-section a {
@@ -212,15 +213,116 @@ body {
   color: var(--primary-color);
 }
 
-.partners {
-  display: none;
+.partners h3 {
+  color: white;
 }
 
 footer {
-  display: nones;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: center;
+}
+
+footer hr {
+  margin-bottom: 10px;
+}
+
+footer img {
+  width: 50px;
+  height: 50px;
+  margin-right: 12px;
+}
+footer p {
+  color: var(--font-color);
+  font-size: 13px;
 }
 
 /* About section */
+.about-welcome {
+  display: flex;
+  justify-content: center;
+}
+.welcome-title {
+  padding-left: 15px;
+}
+
+.none {
+  display: none;
+}
+
+.about-description {
+  background-color: white !important;
+  text-align: center;
+  box-shadow: -1px 0px 5px 0px rgba(247, 247, 247, 0.75);
+  -webkit-box-shadow: -1px 0px 5px 0px rgba(247, 247, 247, 0.75);
+  -moz-box-shadow: -1px 0px 5px 0px rgba(247, 247, 247, 0.75);
+  padding: 20px !important;
+}
+
+.contact {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.contact p {
+  font-size: 14px;
+  color: var(--font-color);
+  line-height: 1.5;
+}
+
+.contact-email {
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.shiloh-logo {
+  text-align: center;
+}
+
+.shiloh-logo h3 {
+  font-family: var(--font-family);
+  padding: 20px 20px 0px 20px;
+  width: 250px;
+  margin: 0 auto;
+  color: var(--font-color);
+}
+
+.shiloh-logo hr {
+  margin-bottom: 10px;
+}
+.shiloh-logo p {
+  width: 350px;
+  margin: 0 auto;
+  color: var(--font-color);
+  padding: 20px 20px 20px 20px;
+}
+
+.shiloh-logo img {
+  width: 400px;
+  padding: 20px;
+  height: 250px;
+}
+
+.past-events h3 {
+  font-family: var(--font-family);
+  padding: 5px 20px 0px 20px;
+  color: var(--font-color);
+  font-size: 1.2rem;
+}
+
+.past-events hr {
+  margin-bottom: 10px;
+}
+.past-events .events-desc {
+  padding: 0px 20px 0px 20px;
+  text-align: center;
+  color: #7b7b7b;
+  font-size: 14px;
+}
+
 .past-event-one {
   background: linear-gradient(rgba(148, 39, 19, 0.7), rgba(148, 39, 19, 0.7)),
     url(/public/images/shiloh-2019webp);
@@ -264,4 +366,33 @@ footer {
   transform: translate(-50%, -50%);
   margin-top: 40px;
   width: 90%;
+}
+
+.about-page {
+  padding: 20px;
+  display: block;
+  margin-bottom: 20px;
+  background-color: #414246;
+  margin-top: 20px;
+}
+
+.about-page {
+  text-align: center;
+}
+
+.about-page h3 {
+  color: white;
+}
+
+.partners-box span {
+  color: white;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.about-footer {
+  margin-bottom: 10px;
+}
+
+.about-page hr {
+  margin-bottom: 10px;
 }
