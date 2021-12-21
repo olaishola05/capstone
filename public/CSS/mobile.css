@@ -132,6 +132,11 @@ body {
   font-weight: 400;
   font-size: 17px;
 }
+
+.see-program {
+  display: none;
+}
+
 .speakers {
   padding: 10px;
 }
@@ -161,6 +166,7 @@ body {
   display: flex;
   margin-bottom: 30px;
 }
+
 .speaker hr {
   width: 30px;
   background-color: var(--primary-color);
