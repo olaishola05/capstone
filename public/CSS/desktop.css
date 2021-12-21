@@ -51,6 +51,10 @@ i {
   justify-content: end;
 }
 
+.close-btn {
+  display: none;
+}
+
 .bottom-nav li a {
   margin-right: 50px;
   color: var(--font-color);
