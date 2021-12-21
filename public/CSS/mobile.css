@@ -257,6 +257,10 @@ footer p {
   display: none;
 }
 
+.desktop-text {
+  display: none;
+}
+
 .about-description {
   background-color: white !important;
   text-align: center;
@@ -269,7 +273,7 @@ footer p {
 .contact {
   margin-top: 20px;
   text-align: center;
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
   padding: 20px;
 }
 
@@ -304,6 +308,10 @@ footer p {
   margin: 0 auto;
   color: var(--font-color);
   padding: 20px 20px 20px 20px;
+}
+
+.desktop-vote {
+  display: none;
 }
 
 .shiloh-logo img {
