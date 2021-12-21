@@ -1,3 +1,491 @@
 body {
   width: 100%;
 }
+
+.hamburger {
+  display: none;
+}
+
+.top-nav-container {
+  width: 100%;
+  padding: 0 100px 0 100px;
+  background-color: var(--font-color);
+}
+
+.top-nav {
+  display: flex;
+  padding: 13px;
+  justify-content: end;
+  cursor: pointer;
+}
+
+.top-nav li a,
+i {
+  color: white;
+  margin-right: 10px;
+}
+
+.bottom-nav-container {
+  display: flex;
+  align-items: center;
+  padding: 0 100px 10px 100px;
+  justify-content: space-between;
+}
+
+.bottom-nav-container img {
+  width: 50px;
+  height: 50px;
+  margin-right: 3px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: var(--cocogoose);
+  color: var(--font-color);
+}
+
+.bottom-nav {
+  display: flex;
+  padding: 20px 0px 20px 0px;
+  justify-content: end;
+}
+
+.bottom-nav li a {
+  margin-right: 50px;
+  color: var(--font-color);
+}
+
+#home {
+  color: var(--primary-color);
+}
+
+li.active {
+  color: var(--primary-color);
+}
+
+.campaign {
+  border: 4px solid var(--primary-color);
+  padding: 10px;
+  color: var(--primary-color) !important;
+}
+
+.headline {
+  background: linear-gradient(
+      rgba(249, 249, 249, 0.8),
+      rgba(249, 249, 249, 0.8)
+    ),
+    url(../images/winners-bg.jpeg);
+  background-size: cover;
+  padding: 100px 100px 50px 100px;
+}
+
+.welcome {
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.headline h1 {
+  color: var(--primary-color);
+  font-weight: 900;
+  margin-top: 7px;
+  margin-bottom: 20px;
+  font-size: 48px;
+  width: 780px;
+}
+
+.headline-p {
+  color: var(--font-color);
+  background-color: var(--secondary-color);
+  padding: 15px;
+  width: 51%;
+  border: 2px solid white;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.headline h3 {
+  color: var(--font-color);
+  margin-top: 10px;
+  font-size: 1.8rem;
+}
+
+.scripture {
+  color: var(--primary-color);
+  font-family: var(--font-family);
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.location {
+  color: var(--font-color);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.program-container {
+  background-color: #272a31;
+}
+
+.program-container h2 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.break {
+  width: 30px;
+  background-color: var(--primary-color);
+  margin-bottom: 40px;
+}
+
+.program-section {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.program-section a {
+  display: none;
+}
+
+.program-item {
+  background-color: #3c3f46;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-width: 300px;
+  min-height: 210px;
+  margin-right: 3px;
+  margin-bottom: 40px;
+}
+
+.program-item img {
+  padding-bottom: 5px;
+}
+
+.program-item:hover {
+  border: 1px solid white;
+}
+
+.program-item h4 {
+  color: var(--primary-color);
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.see-program {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 60px;
+  font-family: var(--font-family);
+  font-size: 15px;
+}
+
+.grid-speakers {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  grid-column-gap: 40px;
+}
+
+.speakers h2 {
+  font-family: var(--font-family);
+  text-align: center;
+  margin-top: 30px;
+}
+
+.checkers {
+  position: absolute;
+  width: 60px;
+}
+
+.speaker-image {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 2px;
+  top: 10px;
+  left: 10px;
+}
+
+.speaker {
+  display: flex;
+  margin-bottom: 30px;
+  width: 350px;
+}
+
+.speaker hr {
+  width: 30px;
+  background-color: var(--primary-color);
+  margin-bottom: 10px;
+  margin-left: 25px;
+}
+
+.name-professional h4 {
+  color: var(--font-color);
+  font-weight: 600;
+  margin-left: 25px;
+}
+
+.name-professional .description {
+  color: var(--primary-color);
+  font-style: italic;
+  margin-left: 25px;
+  width: 250px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.name-professional p {
+  color: var(--font-color);
+  margin-left: 25px;
+  width: 250px;
+  font-size: 14px;
+}
+
+.more {
+  display: none;
+}
+
+.about-page {
+  padding: 20px;
+  display: block;
+  margin-bottom: 20px;
+  background-color: #414246;
+  margin-top: 20px;
+}
+
+.about-page {
+  text-align: center;
+}
+
+.about-page h3 {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.partners-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partners-box h3 {
+  margin-right: 10px;
+  color: #929292;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+footer img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.church-name {
+  color: var(--font-color);
+  font-family: var(--cocogoose);
+}
+
+.footer-text {
+  margin-left: 40px;
+}
+
+footer p {
+  color: var(--font-color);
+  font-size: 13px;
+}
+
+/* About page desktop layout */
+.none {
+  display: none;
+}
+
+.about-welcome {
+  display: none;
+}
+
+.welcome-title {
+  text-align: center;
+}
+
+.mobile-text {
+  display: none;
+}
+
+.about-description {
+  background-color: white !important;
+  text-align: center;
+  box-shadow: -1px 0px 5px 0px rgba(247, 247, 247, 0.75);
+  -webkit-box-shadow: -1px 0px 5px 0px rgba(247, 247, 247, 0.75);
+  -moz-box-shadow: -1px 0px 5px 0px rgba(247, 247, 247, 0.75);
+  padding: 20px !important;
+  width: 80% !important;
+  height: 170px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.contact {
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact p {
+  font-size: 17px;
+  color: var(--font-color);
+  line-height: 1.5;
+  margin: 0 auto;
+  width: 100% !important;
+}
+
+.contact-email {
+  font-weight: 900;
+  text-decoration: underline;
+  font-size: 14px !important;
+}
+
+.shiloh-logo {
+  text-align: center;
+}
+
+.shiloh-logo h3 {
+  font-family: var(--font-family);
+  padding: 20px 20px 0px 20px;
+  margin: 0 auto;
+  color: var(--font-color);
+}
+
+.mobile-vote {
+  display: none;
+}
+
+.shiloh-logo hr {
+  margin-bottom: 10px;
+}
+.shiloh-logo p {
+  width: 60%;
+  margin: 0 auto;
+  color: var(--font-color);
+  padding: 20px 20px 20px 20px;
+}
+
+.logo-break {
+  background-color: #efefef;
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+
+.past-events h3 {
+  font-family: var(--font-family);
+  padding: 5px 20px 0px 20px;
+  color: var(--font-color);
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.past-events hr {
+  margin-bottom: 10px;
+}
+
+.past-events .events-desc {
+  padding: 0px 20px 0px 20px;
+  text-align: center;
+  color: #7b7b7b;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.past-event-one {
+  background: linear-gradient(rgba(148, 39, 19, 0.7), rgba(148, 39, 19, 0.7)),
+    url(/public/images/shiloh-2019webp);
+  background-size: cover;
+  width: 40%;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+}
+
+.past-event-two {
+  background: linear-gradient(rgba(148, 39, 19, 0.7), rgba(148, 39, 19, 0.7)),
+    url(/public/images/shiloh-2021.jpg);
+  background-size: cover;
+  width: 40%;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+}
+
+.event h3 {
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+}
+
+.event p {
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  margin-top: 40px;
+  width: 90%;
+}
+
+.shiloh-logo img {
+  width: 400px;
+  padding: 20px;
+  height: 250px;
+}
+
+.about-page {
+  display: none;
+}
+
+.about-footer {
+  background-color: var(--font-color);
+  padding: 20px;
+}
+
+.footer-text-p {
+  color: white;
+}
+
+.about-name {
+  color: white !important;
+}
