@@ -3,11 +3,7 @@ body {
 }
 
 .header-wrapper {
-  background: linear-gradient(
-      rgba(249, 249, 249, 0.8),
-      rgba(249, 249, 249, 0.8)
-    ),
-    url(../images/winners-bg.jpeg);
+  background: linear-gradient(rgba(249, 249, 249, 0.8), rgba(249, 249, 249, 0.8)), url(../images/winners-bg.jpeg);
   background-size: cover;
 }
 
@@ -36,6 +32,20 @@ body {
   font-weight: 600;
 }
 
+.program-section a {
+  width: 90%;
+  background-color: var(--primary-color);
+  padding: 25px 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 17px;
+}
+
 .bottom-nav li {
   margin-bottom: 20px;
 }
@@ -56,6 +66,12 @@ body {
   margin-right: 70px;
   font-size: 30px;
   font-weight: bold;
+}
+
+footer img {
+  width: 50px;
+  height: 50px;
+  margin-right: 12px;
 }
 
 .program-item img {
@@ -87,6 +103,11 @@ body {
   font-size: 20px;
   margin-top: 7px;
   margin-bottom: 20px;
+}
+
+footer p {
+  color: var(--font-color);
+  font-size: 13px;
 }
 
 .headline p {
@@ -161,20 +182,6 @@ body {
   text-align: left;
 }
 
-.program-section a {
-  width: 90%;
-  background-color: var(--primary-color);
-  padding: 25px 20px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-weight: 400;
-  font-size: 17px;
-}
-
 .see-program {
   display: none;
 }
@@ -209,6 +216,10 @@ body {
   margin-bottom: 30px;
 }
 
+footer hr {
+  margin-bottom: 10px;
+}
+
 .speaker hr {
   width: 30px;
   background-color: var(--primary-color);
@@ -239,6 +250,7 @@ body {
 }
 
 .more {
+  margin: 0 auto;
   margin-top: 40px;
   width: 90%;
   padding: 10px 30px;
@@ -246,11 +258,11 @@ body {
   display: flex;
   align-items: start;
   justify-content: center;
-  margin: 0 auto;
   margin-bottom: 30px;
   text-transform: uppercase;
   border-radius: 3px;
 }
+
 .more span {
   margin-right: 10px;
   color: var(--font-color);
@@ -272,20 +284,6 @@ footer {
   justify-content: center;
 }
 
-footer hr {
-  margin-bottom: 10px;
-}
-
-footer img {
-  width: 50px;
-  height: 50px;
-  margin-right: 12px;
-}
-footer p {
-  color: var(--font-color);
-  font-size: 13px;
-}
-
 #hide-on-mobile {
   display: none;
 }
@@ -295,6 +293,7 @@ footer p {
   display: flex;
   justify-content: center;
 }
+
 .welcome-title {
   padding-left: 15px;
 }
@@ -310,16 +309,15 @@ footer p {
 .about-description {
   background-color: white !important;
   text-align: center;
-  box-shadow: -1px 0px 5px 0px rgba(247, 247, 247, 0.75);
-  -webkit-box-shadow: -1px 0px 5px 0px rgba(247, 247, 247, 0.75);
-  -moz-box-shadow: -1px 0px 5px 0px rgba(247, 247, 247, 0.75);
+  box-shadow: -1px 0 5px 0 rgba(247, 247, 247, 0.75);
+  -webkit-box-shadow: -1px 0 5px 0 rgba(247, 247, 247, 0.75);
+  -moz-box-shadow: -1px 0 5px 0 rgba(247, 247, 247, 0.75);
   padding: 20px !important;
 }
 
 .contact {
   margin-top: 20px;
   text-align: center;
-  /* background-color: #f7f7f7; */
   padding: 20px;
 }
 
@@ -340,7 +338,7 @@ footer p {
 
 .shiloh-logo h3 {
   font-family: var(--font-family);
-  padding: 20px 20px 0px 20px;
+  padding: 20px 20px 0 20px;
   width: 250px;
   margin: 0 auto;
   color: var(--font-color);
@@ -349,6 +347,7 @@ footer p {
 .shiloh-logo hr {
   margin-bottom: 10px;
 }
+
 .shiloh-logo p {
   width: 350px;
   margin: 0 auto;
@@ -368,7 +367,7 @@ footer p {
 
 .past-events h3 {
   font-family: var(--font-family);
-  padding: 5px 20px 0px 20px;
+  padding: 5px 20px 0 20px;
   color: var(--font-color);
   font-size: 1.2rem;
 }
@@ -376,25 +375,25 @@ footer p {
 .past-events hr {
   margin-bottom: 10px;
 }
+
 .past-events .events-desc {
-  padding: 0px 20px 0px 20px;
+  padding: 0 20px 0 20px;
   text-align: center;
   color: #7b7b7b;
   font-size: 14px;
 }
 
 .past-event-one {
-  background: linear-gradient(rgba(148, 39, 19, 0.7), rgba(148, 39, 19, 0.7)),
-    url(/public/images/shiloh-2019webp);
+  background: linear-gradient(rgba(148, 39, 19, 0.7), rgba(148, 39, 19, 0.7)), url(/public/images/shiloh-2019webp);
   background-size: cover;
   width: 93%;
   height: 200px;
   margin: 10px 0 0 10px;
   position: relative;
 }
+
 .past-event-two {
-  background: linear-gradient(rgba(148, 39, 19, 0.7), rgba(148, 39, 19, 0.7)),
-    url(/public/images/shiloh-2021.jpg);
+  background: linear-gradient(rgba(148, 39, 19, 0.7), rgba(148, 39, 19, 0.7)), url(/public/images/shiloh-2021.jpg);
   background-size: cover;
   width: 93%;
   height: 200px;
@@ -434,9 +433,6 @@ footer p {
   margin-bottom: 20px;
   background-color: #414246;
   margin-top: 20px;
-}
-
-.about-page {
   text-align: center;
 }
 
@@ -449,6 +445,7 @@ footer p {
   font-weight: 600;
   margin-right: 10px;
 }
+
 .about-footer {
   margin-bottom: 10px;
 }
