@@ -1,55 +1,47 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Capstone
+# Shiloh 2021 Annual Convention: More than a conqueror
 
-> One paragraph statement about the project.
+![mobile hompage](./public/images/home-mobile.png)
+![about mobile page](./public/images/About-mobile.png)
+![desktop home](./public/images/home-desktop.png)
+![desktop about](./public/images/about-desktop.png)
+![mobile menu](./public/images/menu.png)
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+A web page for the annual Living Faith Church Worldwide convention, @ Faith Tabernacle Canaanland, KM 10, Idiroko Rd. Ota Lagos
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JavaScript
 
-## Live Demo
+## Visit my Portfolio
 
-[Live Demo Link](https://livedemo.com)
+[Live Here](https://netman5.github.io/)
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
+clone repo: `git clone https://github.com/netman5/capstone.git`
+
+then
+`cd capstone`
 
 ### Install
 
-### Usage
-
-### Run tests
-
-### Deployment
+run `npm install` to install dependencies
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@netman5](https://github.com/netman5)
+- Twitter: [@Orlaish](https://twitter.com/Orlaish)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ola-ishola/)
 
 ## 🤝 Contributing
 
@@ -66,6 +58,12 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
+
+## Credits
+
+For this project design, the original design idea is by Cindy Shin in Behance.
+
+- Behance: [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 ## 📝 License
 
