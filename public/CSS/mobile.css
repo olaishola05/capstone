@@ -45,7 +45,12 @@ body {
 
 .bottom-nav li a {
   color: white;
-  font-size: 24px;
+  font-size: 18px;
+}
+
+.bottom-nav li a:hover {
+  background-color: #fff;
+  color: var(--primary-color);
 }
 
 .close-btn {
@@ -148,12 +153,15 @@ body {
   margin-left: 10px;
   color: var(--primary-color);
   font-weight: bold;
+  margin-right: 10px;
+  width: 50%;
 }
 
 .program-item p {
-  width: 85%;
+  width: 90%;
   color: white;
   font-size: 13px;
+  text-align: left;
 }
 
 .program-section a {
