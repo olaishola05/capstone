@@ -321,6 +321,10 @@ footer p {
   font-size: 13px;
 }
 
+#hide-on-mobile {
+  display: block;
+}
+
 /* About page desktop layout */
 a.active {
   color: var(--primary-color);
