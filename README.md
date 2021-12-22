@@ -18,7 +18,7 @@ A web page for the annual Living Faith Church Worldwide convention, @ Faith Tabe
 
 ## Visit my Portfolio
 
-[Live Here](https://netman5.github.io/)
+[Live Here](https://netman5.github.io/capstone/)
 
 ## Getting Started
 
