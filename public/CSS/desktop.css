@@ -431,7 +431,7 @@ a.active {
 }
 
 .past-event-one {
-  background: linear-gradient(rgba(148, 39, 19, 0.7), rgba(148, 39, 19, 0.7)), url(./public/images/shiloh-2019webp);
+  background: linear-gradient(rgba(148, 39, 19, 0.7), rgba(148, 39, 19, 0.7)), url(../images/shiloh-2019webp);
   background-size: cover;
   width: 30%;
   height: 200px;
@@ -440,7 +440,7 @@ a.active {
 }
 
 .past-event-two {
-  background: linear-gradient(rgba(148, 39, 19, 0.7), rgba(148, 39, 19, 0.7)), url(./public/images/shiloh-2021.jpg);
+  background: linear-gradient(rgba(148, 39, 19, 0.7), rgba(148, 39, 19, 0.7)), url(../images/shiloh-2021.jpg);
   background-size: cover;
   width: 30%;
   height: 200px;
