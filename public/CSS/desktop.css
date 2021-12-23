@@ -75,10 +75,6 @@ footer img {
   color: var(--primary-color);
 }
 
-.active {
-  color: var(--primary-color);
-}
-
 .campaign {
   border: 4px solid var(--primary-color);
   padding: 10px;
