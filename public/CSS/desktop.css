@@ -199,6 +199,12 @@ footer p {
   padding-bottom: 60px;
   font-family: var(--font-family);
   font-size: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.program-container hr {
+  margin-bottom: 30px;
 }
 
 .speakers hr {
