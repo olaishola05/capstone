@@ -75,7 +75,7 @@ footer img {
   color: var(--primary-color);
 }
 
-li.active {
+.active {
   color: var(--primary-color);
 }
 
@@ -103,7 +103,7 @@ li.active {
   margin-top: 7px;
   margin-bottom: 20px;
   font-size: 48px;
-  width: 780px;
+  width: 650px;
 }
 
 .headline-p {
@@ -151,12 +151,12 @@ li.active {
 .break {
   width: 30px;
   background-color: var(--primary-color);
-  margin-bottom: 40px;
 }
 
 .program-section {
   display: flex;
   width: 80%;
+  justify-content: center;
   margin: 0 auto;
 }
 
@@ -205,11 +205,17 @@ footer p {
   font-size: 15px;
 }
 
+.speakers hr {
+  margin-bottom: 30px;
+}
+
 .grid-speakers {
   width: 60%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
+  justify-content: center;
+  align-content: center;
   grid-column-gap: 40px;
 }
 
@@ -318,9 +324,13 @@ footer {
   display: block;
 }
 
+.open-nav {
+  display: none;
+}
+
 /* About page desktop layout */
-a.active {
-  color: var(--primary-color);
+.active {
+  color: var(--primary-color) !important;
 }
 
 .none {

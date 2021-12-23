@@ -161,7 +161,8 @@ footer p {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  max-width: 100%;
+  max-height: 50%;
   border-radius: 5px;
   margin-bottom: 10px;
   padding: 10px 5px 10px 5px;
@@ -188,6 +189,11 @@ footer p {
 
 .speakers {
   padding: 10px;
+}
+
+.grid-speakers {
+  display: grid;
+  justify-content: center;
 }
 
 .speakers h2 {
@@ -237,7 +243,7 @@ footer hr {
   color: var(--primary-color);
   font-style: italic;
   margin-left: 25px;
-  width: 225px;
+  width: 190px;
   margin-bottom: 10px;
   font-size: 14px;
 }
@@ -245,7 +251,7 @@ footer hr {
 .name-professional p {
   color: var(--font-color);
   margin-left: 25px;
-  width: 225px;
+  width: 190px;
   font-size: 14px;
 }
 
