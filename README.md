@@ -8,7 +8,7 @@
 ![desktop about](./public/images/about-desktop.png)
 ![mobile menu](./public/images/menu.png)
 
-A web page for the annual Living Faith Church Worldwide convention, @ Faith Tabernacle Canaanland, KM 10, Idiroko Rd. Ota Lagos
+A web page for the annual Living Faith Church Worldwide convention, @ Faith Tabernacle Canaanland, KM 10, Idiroko Rd. Ota Lagos uses the creative design on Behance. Built using JavaScript, HTML, CSS.
 
 ## Built With
 
